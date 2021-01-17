@@ -31,10 +31,12 @@
     "prettier/prettier": "error",
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn",
-    "no=unused-expressions": "off",
+    "no-unused-expressions": "off",
     "react/jsx-filename-extension": [1, { "extensions": [".tsx"] }],
     "import/prefer-default-export": "off",
     "camelcase": "off",
+    "no-empty-function": "off",
+    "@typescript-eslint/no-empty-function": ["error"],
     "@typescript-eslint/explicit-function-return-type": [
       "error",
       {
